@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <center><title> The Maths Quiz!</title></center>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="quiz_game.css">
+        <script src="quiz_game_login.js"></script>
+        <script src="quiz_game_page.js"></script>
+    </head>
+    <body>
+    <h4 id="player1_score"> Player 1 Score: </h4> <span>
+        <br>
+    <h4 id="player2_score"> Player 2 Score: </h4> <span>
+    <br>
+    <br>
+    <div class="container">
+        <center>
+            <h2 style="color:white;">The Math Quiz Game!</h2>
+            <h3 id="player_answer"> Question Turn- </h3> </div>
+            <h3 id="player_question"> Answer Turn- </h3> </div>
+        </center>
+    </div>
+    <center><div id="output" class="col-lg-6"> </div></center>
+    <br>
+    <div id="D1">
+        <center>
+            <h3> Number 1</h3>
+            <input type="text" id="player1_name" placeholder="Number 1">
+        </center>
+    </div>
+    <br>
+    <div id="D2">
+        <center>
+            <h3> Number 2</h3>
+            <input type="text" id="player2_name" placeholder="Number 2">
+        </center>
+    </div>
+    <br>
+    <div id="button_send">
+     <center><button type="text" id="buttonsend" onclick="send();"> Submit</button></center>  
+    </div>
+</body>
+</html>
